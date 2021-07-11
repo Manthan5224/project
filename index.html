@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 2</title>
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="utilities.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="app.js">
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js"></script> -->
+    <style>
+		/* html,body {
+	margin: 0;
+	padding: 0;
+} */
+.slider {
+	width: 100%;
+    height: 40.6rem;
+	/* margin: 2em auto; */
+}
+
+.slider-wrapper {
+	width: 100%;
+	/* height: 400px; */
+    height: 100%;
+	position: relative;
+    /* background-size: cover; */
+}
+
+.slide {
+	float: left;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	transition: opacity 3s linear;
+}
+
+.slider-wrapper > .slide:first-child {
+	opacity: 1;
+}
+
+    </style>
+</head>
+<body>
+    <div class="head cont">
+            <nav>
+                <div class="left">
+                    <div class="logo">
+                        <h2>
+                            AURA
+                        </h2>
+                    </div>
+                </div>
+                <div class="nav">
+                    <a href="#">Home</a>
+                    <a href="#">Company</a>
+                    <a href="#">Project</a>
+                    <a href="#">About</a>
+                    <a href="#">Contact</a>
+                </div>
+            </nav>
+    </div>
+
+    <section class="top" id="top">
+        <div class="con">
+            <div class="slider" id="main-slider"><!-- outermost container element -->
+                <div class="slider-wrapper"><!-- innermost wrapper element -->
+                    <img src="images/castor.jpg" alt="First" class="slide" /><!-- slides -->
+                    <img src="images/Head.jpg" alt="Second" class="slide" />
+                    <img src="images/jojoba.jpg" alt="Third" class="slide" />
+                </div>
+            </div>
+        </div>
+        
+        <div class="head1 cont">
+            <div class="overlay">
+                <div class="txt">
+                    <h1 class="lg">
+                        WE EXPORT FINEST QUALITY CASTOR OIL FROM INDIA
+                    </h1>
+                    <p class="my-3">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur iste rerum esse nemo ducimus? Dignissimos voluptatibus maxime sed minima vero.
+                    </p>
+                    <a href="#" class="btn">More!</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="float">
+        <div class="cube cont">
+            <div class="content card grid">
+                <img src="images/Bottle.jpg" alt="">
+                <div>
+                    <h1 class="lg">WELCOME TO <span id="sp">AURA</span> REFOILS INDIA.</h1>
+                    <p class="my-2">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur ipsa repudiandae ut, numquam rerum, possimus quibusdam, sed iusto aliquam alias similique! Omnis eius veritatis ex nam? Voluptates velit suscipit molestias assumenda sapiente et placeat sed. Dicta soluta in minima, repellat eaque quibusdam distinctio quo eveniet praesentium quaerat illum ipsa? Earum.
+                    </p>
+                    <a href="#" class="btn">View More</a>
+                </div>  
+            </div>
+        </div>
+    </section>
+
+    <section class="product">
+        <div class="pr cont">
+            <h1 class="md text-center">OUR PRODUCTS</h1>
+            <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, officiis?</p>
+            <div class="grid my-4">
+                <div class="main">
+                    <h1 class="lg">
+                        CASTOR OIL
+                    </h1>
+                    <p class="my-3">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem laborum hic iusto, facere corrupti doloremque! Quo dignissimos distinctio pariatur adipisci omnis qui repellat unde, sint porro, modi est magnam mollitia culpa, perspiciatis facere cupiditate atque? Omnis ipsam quidem hic excepturi est, quasi, architecto eum cupiditate, voluptates iure id harum exercitationem!
+                    </p>
+                    <a href="#" class="btn">View More</a>
+                </div>
+                <div class=""><img src="images/flower.jpg" alt="" class="im"></div>
+            </div>
+            <div class="grid my-4">
+                <div class=""><img src="images/flower.jpg" alt="" class="im"></div>
+                <div class="main-right">
+                    <h1 class="lg">
+                        CASTOR OIL
+                    </h1>
+                    <p class="my-3">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem laborum hic iusto, facere corrupti doloremque! Quo dignissimos distinctio pariatur adipisci omnis qui repellat unde, sint porro, modi est magnam mollitia culpa, perspiciatis facere cupiditate atque? Omnis ipsam quidem hic excepturi est, quasi, architecto eum cupiditate, voluptates iure id harum exercitationem!
+                    </p>
+                    <a href="#" class="btn">View More</a>
+                </div>
+            </div>
+            <div class="grid my-4">
+                <div class="main">
+                    <h1 class="lg">
+                        CASTOR OIL
+                    </h1>
+                    <p class="my-3">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem laborum hic iusto, facere corrupti doloremque! Quo dignissimos distinctio pariatur adipisci omnis qui repellat unde, sint porro, modi est magnam mollitia culpa, perspiciatis facere cupiditate atque? Omnis ipsam quidem hic excepturi est, quasi, architecto eum cupiditate, voluptates iure id harum exercitationem!
+                    </p>
+                    <a href="#" class="btn">View More</a>
+                </div>
+                <div class=""><img src="images/flower.jpg" alt="" class="im"></div>
+            </div>
+            <div class="grid">
+                <div class=""><img src="images/flower.jpg" alt="" class="im"></div>
+                <div class="main-right">
+                    <h1 class="lg">
+                        CASTOR OIL
+                    </h1>
+                    <p class="my-3">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem laborum hic iusto, facere corrupti doloremque! Quo dignissimos distinctio pariatur adipisci omnis qui repellat unde, sint porro, modi est magnam mollitia culpa, perspiciatis facere cupiditate atque? Omnis ipsam quidem hic excepturi est, quasi, architecto eum cupiditate, voluptates iure id harum exercitationem!
+                    </p>
+                    <a href="#" class="btn">View More</a>
+                </div>
+            </div>
+        </div>
+
+        
+
+    </section>
+
+    <section class="contact py-4">
+        <!-- <div class="cont"> -->
+             <div class="fl">
+                <div class="card">
+                    <h1 class="md my-2 text-center">
+                        CONTACT US
+                    </h1>
+                    <form action="">
+                        <div class="frm">
+                            <div class="left">
+                                <input type="text" placeholder="First Name">
+                                <input type="text" placeholder="Last Name">
+                            </div>
+                            <div class="right">
+                                <input type="email" name="email" id="" placeholder="Email">
+                                <input type="number" name="phone" id="" placeholder="Phone No.">
+                            </div>
+                            <textarea name="message" id="area" cols="90" rows="7" placeholder="Enter Message"></textarea>
+                            <div class="sub my-2">
+                                <a href="#" class="btn text-center">Submit</a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        <!-- </div> -->
+    </section>
+
+    <footer class="footer py-5">
+        <div class="container grid grid-3">
+            <div>   
+                <h1>AURA</h1>
+            <p>Copyright &copy; 2020</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Company</a></li>
+                    <li><a href="#">Project</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="social">
+                <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+                <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+                <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <div class="foot text-center">
+        Made with <i class="fas fa-heart"></i> by Manthan
+    </div>
+
+    <script>
+        (function() {
+        
+        function Slideshow( element ) {
+            this.el = document.querySelector( element );
+            this.init();
+        }
+        
+        Slideshow.prototype = {
+            init: function() {
+                this.wrapper = this.el.querySelector( ".slider-wrapper" );
+                this.slides = this.el.querySelectorAll( ".slide" );
+                this.previous = this.el.querySelector( ".slider-previous" );
+                this.next = this.el.querySelector( ".slider-next" );
+                this.index = 0;
+                this.total = this.slides.length;
+                this.timer = null;
+                
+                this.action();
+                this.stopStart();	
+            },
+            _slideTo: function( slide ) {
+                var currentSlide = this.slides[slide];
+                currentSlide.style.opacity = 1;
+                
+                for( var i = 0; i < this.slides.length; i++ ) {
+                    var slide = this.slides[i];
+                    if( slide !== currentSlide ) {
+                        slide.style.opacity = 0;
+                    }
+                }
+            },
+            action: function() {
+                var self = this;
+                self.timer = setInterval(function() {
+                    self.index++;
+                    if( self.index == self.slides.length ) {
+                        self.index = 0;
+                    }
+                    self._slideTo( self.index );
+                    
+                }, 3000);
+            },
+            stopStart: function() {
+                var self = this;
+                self.el.addEventListener( "mouseover", function() {
+                    clearInterval( self.timer );
+                    self.timer = null;
+                    
+                }, false);
+                self.el.addEventListener( "mouseout", function() {
+                    self.action();
+                    
+                }, false);
+            }
+            
+            
+        };
+        
+        document.addEventListener( "DOMContentLoaded", function() {
+            
+            var slider = new Slideshow( "#main-slider" );
+            
+        });
+        
+        
+    })();
+    </script>
+</body>
+
+</html>
